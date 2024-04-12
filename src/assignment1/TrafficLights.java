@@ -1,7 +1,7 @@
 package assignment1;
 import java.util.Scanner;
 
-public class TrafficLight {
+public class TrafficLights {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
