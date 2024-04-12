@@ -1,9 +1,9 @@
 package assignment4;
 public class BankAccount {
-    private int accountNumber;
-    private String accountHolderName;
-    private double balance;
-    private String accountType;
+    int accountNumber;
+    String accountHolderName;
+    double balance;
+    String accountType;
 
 
     public BankAccount(int accountNumber, String accountHolderName, double balance, String accountType) {
