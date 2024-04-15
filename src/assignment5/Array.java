@@ -1,6 +1,6 @@
 package assignment5;
 
-public class ArrayReverse {
+public class Array {
     public static void main(String[] args) {
         int[] arr = {10,30,43,54,23,543,43,32};
 
