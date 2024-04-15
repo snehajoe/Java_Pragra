@@ -10,6 +10,9 @@ public class ArrayReverse {
 
         arrayMax(arr);
         arrayMin(arr);
+
+        System.out.println("Sum of the elements: "+arraySum(arr));
+        arrAverage(arr);
     }
 
     public static void arrayReverse(int[] arr) {
@@ -41,5 +44,19 @@ public class ArrayReverse {
             }
         }
         System.out.println("Minimum element in the array: " + min);
+    }
+
+    public static int arraySum(int[] arr) {
+        int sum=0;
+        for (int i=0; i<arr.length; i++){
+            sum+= arr[i];
+        }
+        return sum;
+    }
+
+    public static void arrAverage(int[] arr) {
+        int sum = arraySum(arr);
+        double average= 1.0 * sum / 8;
+        System.out.println("Average of the elements: " + average);
     }
 }
