@@ -63,9 +63,28 @@ public class Array {
         return sum;
     }
 
-    public static double arrAverage(int[] arr) {
+    public static double arrayAverage(int[] arr) {
         int sum = arraySum(arr);
         double average= 1.0 * sum / 8;
         return average;
+    }
+
+    public static void arraySort(int[] arr) {
+        int n = arr.length-1;
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n - i; j++) {
+                if (arr[j] > arr[j+1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
+            }
+        }
+        System.out.print("Sorted array: ");
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+
     }
 }

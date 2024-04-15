@@ -11,6 +11,7 @@ public class ArrayMain {
         Array secondMinimum = new Array();
         Array sum = new Array();
         Array average = new Array();
+        Array sorted = new Array();
 
         reverse.arrayReverse(arr);
         System.out.println(" ");
@@ -22,6 +23,10 @@ public class ArrayMain {
         System.out.println("Second minimum element in the array: " + secondMinimum.arraySecondMin(arr));
 
         System.out.println("Sum of the elements: "+ sum.arraySum(arr));
-        System.out.println("Average of the elements: " + average.arrAverage(arr));
+        System.out.println("Average of the elements: " + average.arrayAverage(arr));
+
+        sorted.arraySort(arr);
+        System.out.println(" ");
+
     }
 }
