@@ -14,7 +14,7 @@ public class CharArray {
 
         for (i=0; i<arr.length; i++){
             for(j=0; j<arr[i].length; j++){
-                System.out.println("Enter the element:");
+                System.out.println("Enter the character:");
                 arr[i][j] = Character.toUpperCase(scanner.next().charAt(0));
             }
         }
