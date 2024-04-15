@@ -34,6 +34,27 @@ public class Array {
         return min;
     }
 
+    public static int arraySecondMax(int[] arr) {
+        int max = arrayMax(arr);
+        int secondMax = arr[0];
+        for (int i : arr) {
+            if(i > secondMax && i != max) {
+                secondMax = i;
+            }
+        }
+        return secondMax;
+    }
+    public static int arraySecondMin(int[] arr) {
+        int min = arrayMin(arr);
+        int secondMin = arr[0];
+        for (int i : arr) {
+            if(i < secondMin && i != min) {
+                secondMin = i;
+            }
+        }
+        return secondMin;
+    }
+
     public static int arraySum(int[] arr) {
         int sum=0;
         for (int i=0; i<arr.length; i++){
