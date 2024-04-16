@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class VowelsAndConsonants {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the string: ");
+        System.out.print("Enter the string : ");
         String s= scanner.nextLine().toLowerCase();
 
         char[] chars = s.toCharArray();
@@ -19,8 +19,8 @@ public class VowelsAndConsonants {
                 consonants++;
             }
         }
-        System.out.println("No.of vowels: "+vowels);
-        System.out.println("No.of consonants: "+consonants);
+        System.out.println("No.of vowels     : "+vowels);
+        System.out.println("No.of consonants : "+consonants);
 
     }
 
