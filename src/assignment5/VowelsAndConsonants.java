@@ -5,10 +5,14 @@ public class VowelsAndConsonants {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the string : ");
-        String s= scanner.nextLine().toLowerCase();
-
+        String s = scanner.nextLine().toLowerCase();
         char[] chars = s.toCharArray();
 
+        VowelsAndConsonants a = new VowelsAndConsonants();
+        a.alphabets(chars);
+    }
+
+    public static void alphabets(char[] chars){
         int vowels = 0;
         int consonants = 0;
 
@@ -23,5 +27,4 @@ public class VowelsAndConsonants {
         System.out.println("No.of consonants : "+consonants);
 
     }
-
 }
