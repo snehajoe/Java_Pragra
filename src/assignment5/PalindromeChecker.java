@@ -6,8 +6,8 @@ public class PalindromeChecker {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter the string: ");
-        String s = scanner.nextLine().toLowerCase();
-        char[] chars = s.toCharArray();
+        String input = scanner.nextLine().toLowerCase();
+        char[] chars = input.toCharArray();
 
         PalindromeChecker p= new PalindromeChecker();
         p.palindrome(chars);
