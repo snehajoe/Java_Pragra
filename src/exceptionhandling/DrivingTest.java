@@ -1,4 +1,4 @@
-package oop_assignment.exceptionhandling;
+package exceptionhandling;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
