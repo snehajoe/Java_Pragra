@@ -6,7 +6,7 @@ public class DrivingTest {
     private static final int MIN_AGE = 18;
     private static final int MAX_AGE = 100;
 
-    public static void main(String[] args) throws InvalidAgeException{
+    public static void main(String[] args) throws InvalidAgeException {
         int age;
 
         Scanner scanner = new Scanner(System.in);
