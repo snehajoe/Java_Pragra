@@ -7,10 +7,9 @@ public class DrivingTest {
     private static final int MAX_AGE = 100;
 
     public static void main(String[] args) throws InvalidAgeException{
-        Scanner scanner = new Scanner(System.in);
-
         int age;
 
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your age: ");
 
         try {
